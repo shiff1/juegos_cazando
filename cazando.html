@@ -2,30 +2,35 @@
 <html>
 <head>
   <title>Juego Cazando</title>
-
+  <link rel="stylesheet" href="cazando.css"/>
+  
 </head>
-<body>
+<body onload="iniciarJuego();">
 
   <h1>Juego Cazando</h1>
   <p>Autor: Tu Nombre o Nickname</p>
+  <canvas id="areaJuegos" width="500" height="500"></canvas>
 
 
   <div class="controles">
-    <button>⬆</button>
+    <button onclick="moverArriba()">⬆</button>
     <br>
-    <button>⬅</button>
-    <button>⬇</button>
-    <button>➡</button>
+    <button onclick="moverIzquierda()">⬅</button>
+    <button onclick="moverAbajo()">⬇</button>
+    <button onclick="moverDerecha()">➡</button>
+    <br>
+    <button onclick="reiniciarJuego()">🔄 REINICIAR</button>
+    <button onclick="desaparecerPersonaje()">DESAPARECER</button>
   </div>
 
 
   <div class="panel">
-    <span>Puntos: <span id="puntos">0</span></span>
+    <span>Puntos: <span id="spanPuntaje">0</span></span>
     <span>Tiempo: <span id="tiempo">10</span></span>
   </div>
 
   <p id="mensaje"></p>
-
-
+ <script src="utilitarios.js"></script>
+  <script src="cazando.js"></script>
 </body>
 </html>
