@@ -1,36 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Juego Cazando</title>
-  <link rel="stylesheet" href="cazando.css"/>
-  
+  <link rel="stylesheet" href="cazando.css">
 </head>
 <body onload="iniciarJuego();">
-
-  <h1>Juego Cazando</h1>
+  <h1>🐱 Juego Cazando</h1>
   <p>Autor: Tu Nombre o Nickname</p>
-  <canvas id="areaJuegos" width="500" height="500"></canvas>
-
-
-  <div class="controles">
-    <button onclick="moverArriba()">⬆</button>
-    <br>
-    <button onclick="moverIzquierda()">⬅</button>
-    <button onclick="moverAbajo()">⬇</button>
-    <button onclick="moverDerecha()">➡</button>
-    <br>
-    <button onclick="reiniciarJuego()">🔄 REINICIAR</button>
-    <button onclick="desaparecerPersonaje()">DESAPARECER</button>
-  </div>
-
 
   <div class="panel">
     <span>Puntos: <span id="spanPuntaje">0</span></span>
     <span>Tiempo: <span id="tiempo">10</span></span>
   </div>
 
+  <canvas id="areaJuegos" width="600" height="400"></canvas>
+
+  <div class="controles">
+    <button onclick="moverArriba()">⬆️ Arriba</button>
+    <button onclick="moverIzquierda()">⬅️ Izquierda</button>
+    <button onclick="moverAbajo()">⬇️ Abajo</button>
+    <button onclick="moverDerecha()">➡️ Derecha</button>
+  </div>
+
+  <div class="controles">
+    <button onclick="reiniciarJuego()">🔄 Reiniciar</button>
+    <button onclick="desaparecerPersonaje()">👻 Desaparecer</button>
+  </div>
+
   <p id="mensaje"></p>
- <script src="utilitarios.js"></script>
+
+  <script src="utilitarios.js"></script>
   <script src="cazando.js"></script>
+  
 </body>
 </html>

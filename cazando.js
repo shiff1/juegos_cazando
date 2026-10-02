@@ -82,7 +82,7 @@ function detectarColision() {
                      gatoY + ALTO_GATO > comidaY;
 
     if (chocaEnX && chocaEnY) {
-        puntaje = puntaje + 1;               // gana 1 punto
+        puntaje = puntaje + 1;// gana 1 punto
         let componente=document.getElementById("spanPuntaje");
         componente.textContent=puntaje;
         comidaX = generarAleatorio(0, canvas.width - ANCHO_COMIDA);
@@ -93,7 +93,7 @@ function detectarColision() {
         if (puntaje === 6) {
         clearInterval(intervalo);   // detener el conteo
         alert("¡Ganaste! 🎉");
-    }
+        }
     }
    
     

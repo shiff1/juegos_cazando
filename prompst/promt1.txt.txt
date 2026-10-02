@@ -1,0 +1,25 @@
+ROL: Actúa como un desarrollador web experto en HTML y CSS, con habilidades de diseño UI/UX moderna.
+
+TAREA: Necesito mejorar la interfaz gráfica de mi juego "Cazando". La página debe tener:
+
+1. Un título llamativo con emoji.
+2. El nombre del autor.
+3. Un marcador de puntos y tiempo visible.
+4. Un canvas para el área del juego.
+5. Botones de control con emojis (movimiento, iniciar, reiniciar, desaparecer).
+6. Un diseño moderno con:
+   - Fondo con degradado oscuro ( azul marino).
+   - Título dorado con sombra.
+   - Botones dorados con efecto hover.
+   - Canvas con borde dorado, esquinas redondeadas y sombra.
+   - Diseño responsive.
+7. Mantener los mismos id y funciones que usa el JavaScript existente (areaJuegos, spanPuntaje, tiempo, moverArriba, moverIzquierda, moverAbajo, moverDerecha, iniciarJuego, reiniciarJuego, desaparecerPersonaje) para no romper el funcionamiento del juego.
+
+---
+
+PROMPT 2 (mejora de interfaz):
+ROL: Actúa como desarrollador web experto en HTML y CSS.
+
+
+
+TAREA: Mejora visualmente la interfaz del juego con un CSS moderno que incluya fondo degradado, botones dorados con hover, canvas con borde y sombra, y un marcador de puntos y tiempo en píldoras con colores destacados. No modificar el archivo JavaScript..
