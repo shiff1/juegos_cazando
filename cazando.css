@@ -12,6 +12,9 @@ body {
   margin: 0;
   padding: 30px 20px;
   color: #eee;
+   background-image: url('cat.png');
+  background-size: cover;
+  background-position: center;
 }
 
 h1 {
@@ -41,7 +44,7 @@ h1 {
 }
 
 .panel span#tiempo {
-  color: #ff6b6b;
+  color: #160857;
 }
 
 canvas {

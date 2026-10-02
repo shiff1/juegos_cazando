@@ -1,0 +1,16 @@
+ROL: Actúa como un desarrollador web experto en HTML y CSS, con habilidades de diseño visual.
+
+TAREA: Necesito mejorar visualmente el juego "Cazando" agregando:
+
+1. Imágenes al proyecto (por ejemplo, un gato para el personaje o íconos decorativos).
+2. Un fondo (background) atractivo, el cual puede ser una imagen descargada de internet o un degradado en CSS.
+
+3. El diseño debe mantener el funcionamiento actual del juego (no modificar el archivo JavaScript) y verse moderno y atractivo..
+---
+
+PROMPT 2 (ajuste):
+ROL: Actúa como desarrollador web experto en HTML y CSS.
+
+
+
+TAREA: Ajusta el fondo y las imágenes para que el juego se vea más atractivo y los elementos sean claramente visibles, manteniendo el funcionamiento del JavaScript sin cambios..
